@@ -34,7 +34,7 @@
 				 		<form method="post" action="DeleteEditServerlet">
 				 			<input name="id" value="<%=id%>" id="hidden-input" >
 					 		<div class="image-wrapper">
-					 			  <img src="<%=image%>">
+					 			  <img src="<%=image%>" alt="my">
 					 		</div>
 					 		   	<input class="item-name" value="<%=name%>" name="name">
 					 		   	<p> <%=rs.getString("brand") %> </p>
