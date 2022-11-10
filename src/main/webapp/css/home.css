@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.body{
+	font-family: 'Roboto', sans-serif;
+	  width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position : center;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction : column;
+    justify-content:center; 
+    align-items:center; 
+    background-image: url("https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200");
+	
+}
+
+.item-card{
+	width : 250px;
+	height : 500px;
+	padding : 16px;
+	display : flex;
+	flex-direction : column;
+	/* From https://css.glass */
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	color : white;
+	margin : 0 16px;
+}
+
+
+.button {
+	min-width : 60px;
+	background-color : green;
+	border-radius : 12px;
+	height : 60px;
+	border: none;
+	border-radius : 12px;
+	color : white;
+	padding : 8px 0; 
+	cursor : pointer;
+}
+
+
+input{
+	background-color:transparent;
+	border : none;
+	color :transparent;
+	height : 0;
+	type : hidden;
+}
